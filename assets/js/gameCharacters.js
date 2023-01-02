@@ -10,4 +10,7 @@ var seraEl = document.querySelector("#item-a1");
 
 // seraEl.setAttribute(charSera.cards.card1[1])
 
-document.getElementById('item-a1').style.backgroundImage = charSera.cards.card1[0];
+document.getElementById('item-a1').style.backgroundImage = charSera.cards.card17[0];
+
+
+// Classes: Action - Gambling, Gambling, Action, Cheating, Sometimes, Anytime
