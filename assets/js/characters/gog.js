@@ -5,7 +5,7 @@
 
 const gogCards = {
     cardBack:null,
-    card1:[,"","","",],
+    card1:[,"","","","",],
     card2:[,"","","",],
     card3:[,"","","",],
     card4:[,"","","",],
