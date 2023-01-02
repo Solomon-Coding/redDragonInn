@@ -14,34 +14,40 @@ var playerList = [];
 var gamePlayerList = [];
 
 // Objects
-var roomLeader = {
-    players:5,
-    shipEvents:0,
-    dungenEvents:0,
-    music:0,
-}
 var roomParticipant = {
     music:0,
 }
-var player = {
-    id:null,
-    gameName:"",
-    gameChar:null,
-    fortitude:20,
-    alcoholContent:0,
-    gold:10,
-    role:roomParticipant,
+var roomLeader = {
+    participants:3,
+    shipEvents:0,
+    dungeonEvents:0,
+    music:0,
 }
 
 
-for (var i=0;roomLeader.players;i++){
-    player.id = i;
+console.log(roomLeader.participants)
+for (var i=0;i<roomLeader.participants;i++){
+    var player = {
+        id:0,
+        gameName:"",
+        gameChar:null,
+        // List of attributes that can be affected over the game
+        fortitude:20,
+        alcoholContent:0,
+        gold:10,
+        role:"RoomParticipant",
+        actions: roomParticipant,
+    }
     playerList[i] = player;
+    playerList[i].id=i;
+    console.log(player.id)
 }
 
-player[0].role=roomLeader;
+initialization();
+playerList[1].role="RoomLeader";
+playerList[1].actions=roomLeader;
 
-function initilazation(){
+function initialization(){
     for (var i=0;i<playerList.length;i++){
         playerList[i].gold=10;
         playerList[i].alcoholContent=0;
@@ -73,5 +79,3 @@ function shuffle(array){
   
     return array;
 }
-
-initilazation();
