@@ -178,6 +178,7 @@ var charFiona = {
     cards:fionaCards,
     fortitude:20,
     alcoholContent:0,
+    gold:10,
     effects:null,
 }
 

@@ -178,6 +178,7 @@ var charGog = {
     cards:gogCards,
     fortitude:20,
     alcoholContent:0,
+    gold:10,
     effects:null,
 }
 

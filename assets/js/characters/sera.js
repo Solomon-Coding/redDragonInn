@@ -176,8 +176,6 @@ var charSera = {
     charCardB:["url('./assets/images/Sprites/Characters/Sera/Sera Character Card - B.jpg')"],
     mat:["url('./assets/images/Sprites/Characters/Sera/Sera Player Mat.jpg')"],
     cards:seraCards,
-    fortitude:20,
-    alcoholContent:0,
     effects:null,
 }
 
