@@ -18,6 +18,10 @@ var roomLeader = {
     players:5,
     shipEvents:0,
     dungenEvents:0,
+    music:0,
+}
+var roomParticipant = {
+    music:0,
 }
 var player = {
     id:null,
@@ -26,7 +30,7 @@ var player = {
     fortitude:20,
     alcoholContent:0,
     gold:10,
-    role:roomLeader,
+    role:roomParticipant,
 }
 
 
@@ -34,6 +38,8 @@ for (var i=0;roomLeader.players;i++){
     player.id = i;
     playerList[i] = player;
 }
+
+player[0].role=roomLeader;
 
 function initilazation(){
     for (var i=0;i<playerList.length;i++){
