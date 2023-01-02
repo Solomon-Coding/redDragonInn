@@ -180,9 +180,6 @@ var charName = {
     charCardB:["url('./assets/images/Sprites/Characters/Name/Name Character Card - B.jpg')"],
     mat:["url('./assets/images/Sprites/Characters/Name/Name Player Mat.jpg')"],
     cards:nameCards,
-    fortitude:20,
-    alcoholContent:0,
-    gold:10,
     effects:null,
 }
 

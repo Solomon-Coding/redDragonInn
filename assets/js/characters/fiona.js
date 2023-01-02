@@ -176,9 +176,6 @@ var charFiona = {
     charCardB:["url('./assets/images/Sprites/Characters/Fiona/Fiona Character Card - B.jpg')"],
     mat:["url('./assets/images/Sprites/Characters/Fiona/Fiona Player Mat.jpg')"],
     cards:fionaCards,
-    fortitude:20,
-    alcoholContent:0,
-    gold:10,
     effects:null,
 }
 

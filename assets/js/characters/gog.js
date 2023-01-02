@@ -176,9 +176,6 @@ var charGog = {
     charCardB:["url('./assets/images/Sprites/Characters/Gog/Gog Character Card - B.jpg')"],
     mat:["url('./assets/images/Sprites/Characters/Gog/Gog Player Mat.jpg')"],
     cards:gogCards,
-    fortitude:20,
-    alcoholContent:0,
-    gold:10,
     effects:null,
 }
 

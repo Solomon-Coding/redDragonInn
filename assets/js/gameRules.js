@@ -7,41 +7,42 @@
 // When the room leader startes the game, then the screen changes to the game board,
 //      and initilazation seuence is run. card decks are scrambled, a player is randomly
 //      selected to start from playerlist, players are shuffled, fortitude, alcohol content, gold are set. 
-var innGold = 100;
 
-var player0 = {
-    gameChar:,
-    fortitude:20,
-    alcoholContent:0,
-    gold:10,
-}
-var player1 = {
-    gameChar:,
-    fortitude:20,
-    alcoholContent:0,
-    gold:10,
-}
-var player2 = {
-    gameChar:,
-    fortitude:20,
-    alcoholContent:0,
-    gold:10,
-}
-var player3 = {
-    gameChar:,
-    fortitude:20,
-    alcoholContent:0,
-    gold:10,
-}
-var playerList = [player0,player1,player2,player3];
+// Variables
+var innGold = 100;
+var playerList = [];
 var gamePlayerList = [];
 
+// Objects
+var roomLeader = {
+    players:5,
+    shipEvents:0,
+    dungenEvents:0,
+}
+var player = {
+    id:null,
+    gameName:"",
+    gameChar:null,
+    fortitude:20,
+    alcoholContent:0,
+    gold:10,
+    role:roomLeader,
+}
+
+
+for (var i=0;roomLeader.players;i++){
+    player.id = i;
+    playerList[i] = player;
+}
 
 function initilazation(){
     for (var i=0;i<playerList.length;i++){
         playerList[i].gold=10;
         playerList[i].alcoholContent=0;
         playerList[i].fortitude=10;
+        // playerList[i].scarabs=0;
+        // playerList[i].tears=10;
+        
     }
 
     innGold=100;
@@ -66,4 +67,5 @@ function shuffle(array){
   
     return array;
 }
+
 initilazation();

@@ -8,35 +8,43 @@ const seraCards = {
     card1:["url('./assets/images/Sprites/Characters/Sera/Main Deck/A true rouge gets the job done undetected!.jpg')",
             "A true rouge gets the job done undetected!",
             "",
-            "Action",],
+            "Action",
+            aTrueRougeGetsTheJobDoneUndetected()],
     card2:["url('./assets/images/Sprites/Characters/Sera/Main Deck/Cat-like reflexes.jpg')",
             "Cat-like reflexes",
             "",
-            "Sometimes",],
+            "Sometimes",
+            catLikeReflexes()],
     card3:["url('./assets/images/Sprites/Characters/Sera/Main Deck/Does this taste like poison to you.jpg')",
             "Does this taste like poison to you",
             "",
-            "Action",],
+            "Action",
+            doesThisTasteLikePoisonToYou()],
     card4:["url('./assets/images/Sprites/Characters/Sera/Main Deck/Does this taste like poison to you.jpg')",
             "Does this taste like poison to you",
             "",
-            "Action",],
+            "Action",
+            doesThisTasteLikePoisonToYou()],
     card5:["url('./assets/images/Sprites/Characters/Sera/Main Deck/You can't block what you can't see!.jpg')",
             "You can't block what you can't see!",
             "",
-            "Action",],
+            "Action",
+            youCantBlockWhatYouCantSee()],
     card6:["url('./assets/images/Sprites/Characters/Sera/Main Deck/You can't block what you can't see!.jpg')",
             "You can't block what you can't see!",
             "",
-            "Action",],
+            "Action",
+            youCantBlockWhatYouCantSee()],
     card7:["url('./assets/images/Sprites/Characters/Sera/Main Deck/You can't block what you can't see!.jpg')",
             "You can't block what you can't see!",
             "",
-            "Action",],
-    card8:["url('./assets/images/Sprites/Characters/Sera/Main Deck/Roughs dont's always do it from behind!.jpg')",
-            "Roughs dont's always do it from behind!",
+            "Action",
+            youCantBlockWhatYouCantSee()],
+    card8:["url('./assets/images/Sprites/Characters/Sera/Main Deck/Rogues don't always do it from behind!.jpg')",
+            "Rogues don't always do it from behind!",
             "",
-            "Action",],
+            "Action",
+            roguesDontAlwaysDoItFromBehind()],
     card9:["url('./assets/images/Sprites/Characters/Sera/Main Deck/I should warn you. I'm pretty good at this game..jpg')",
             "I should warn you. I'm pretty good at this game.",
             "",
@@ -165,6 +173,27 @@ const seraCards = {
             "Friendly distraction",
             "",
             "Sometimes",],
+}
+
+// Card Functions
+function aTrueRougeGetsTheJobDoneUndetected(){
+
+}
+
+function catLikeReflexes(){
+
+}
+
+function doesThisTasteLikePoisonToYou(){
+
+}
+
+function youCantBlockWhatYouCantSee(){
+
+}
+
+function roguesDontAlwaysDoItFromBehind(){
+
 }
 
 // This object will hold all the key attributes of the 
